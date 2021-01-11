@@ -1,7 +1,4 @@
-//Honey, Andy
-//Final Exam
-//Operating Sys&Parallel Programming
-
+Included is a copy of the filesystem used for testing, as “filesystem.zip”. This contains the c files as well. The goal of this application was to create a binary search program, which looks through all directories at a lower level than the current, looking for matches on a given file fragment. The program is targeted at binary and text filetypes. The first program is sequential and included is an OpenMP and a Pthread implementation of parallel versions of the program.
 
 The following programs have been tested be compatible with Linux based OS only.
 
