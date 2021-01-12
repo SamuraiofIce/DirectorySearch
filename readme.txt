@@ -1,6 +1,12 @@
+IMPORTANT
+This code is open source, and free for reuse.
+This project is no longer an active project. I cannot guaruntee the accuracy of the pthread version in it's current state, so use it with discretion.
+The code is also not complex. Because of the way that some files may be compressed and stored, this program can only be guarunteed to match on strings of characters.
+
+
 Included is a copy of the filesystem used for testing, as “filesystem.zip”. This contains the c files as well. The goal of this application was to create a binary search program, which looks through all directories at a lower level than the current, looking for matches on a given file fragment. The program is targeted at binary and text filetypes. The first program is sequential and included is an OpenMP and a Pthread implementation of parallel versions of the program.
 
-The following programs have been tested be compatible with Linux based OS only.
+The following programs have been tested be compatible with Linux based OS only. Direc.c should compile on Windows, however I cannot guaruntee it.
 
 //Compiling
 To compile the programs, use the following commands: 
